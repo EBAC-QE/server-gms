@@ -8,7 +8,9 @@ Referência: https://golden-movie-studio.vercel.app/
 ### Pré-requisito:
 
 -Node.js - Você encontra em: https://nodejs.org/en/
+
 -Visual Studio Code ( ou editor de sua prefrência) - você encontra em: https://code.visualstudio.com/download
+
 -Git: você encontra em: https://git-scm.com/downloads
 
 Via terminal, rode os seguintes comandos:
@@ -29,14 +31,18 @@ npm install
 npm start
 ```
 O banco funciona em memória em http://localhost:3030
+
 A documentação Swagger roda em http://localhost:3030/api-docs/ 
+
 Os dados ficam armazenados em seu projeto no arquivo cadastro.db. 
+
 Você pode visualizar com o plugin do vscode sqlite view
 
 Use o postman para fazer os testes iniciais. UrlBase: http://localhost:3030 
 
 ### Bom Jornada ;) 
 Fábio & José Ernesto
+
 Qualidade de software
 
 Apoio: Leonardo Souza e Aline Keiko
