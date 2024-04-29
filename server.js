@@ -9,7 +9,7 @@ const swaggerJsDoc = require('swagger-jsdoc');
 const Joi = require('joi');
 
 const app = express();
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || 'localhost';
 
 app.use(cors());
@@ -128,13 +128,13 @@ const swaggerOptions = {
             version: "1.0.0",
             description: `API para gerenciamento de usuários e filmes da Golden Movie Studio (GMS).
             Esta API permite a manipulação de informações de filmes e usuários, incluindo cadastro, atualização e busca.
-            UrlBase: http://localhost:3030`,
+            UrlBase: http://localhost:3000`,
 
             contact: {
                 name: "Suporte GMS",
                 email: "suporte@gms.com"
             },
-            servers: [{ url: "http://localhost:3030" }]
+            servers: [{ url: "http://localhost:3000" }]
         },
         tags: [
             {
