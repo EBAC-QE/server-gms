@@ -34,7 +34,7 @@ O banco funciona em memória em http://localhost:3000
 
 A documentação Swagger roda em http://localhost:3000/api-docs/ 
 
-Os dados ficam armazenados em seu projeto no arquivo cadastro.db 
+Os dados ficam armazenados em seu projeto no arquivo **cadastro.db** que é criado só após execução do server.  
 
 Você pode visualizar com o plugin do vscode sqlite view
 
