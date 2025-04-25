@@ -30,21 +30,20 @@ npm install
 ```
 npm start
 ```
-O banco funciona em memória em http://localhost:3030
+O banco funciona em memória em http://localhost:3000
 
-A documentação Swagger roda em http://localhost:3030/api-docs/ 
+A documentação Swagger roda em http://localhost:3000/api-docs/ 
 
-Os dados ficam armazenados em seu projeto no arquivo cadastro.db. 
+Os dados ficam armazenados em seu projeto no arquivo **cadastro.db** que é criado só após execução do server.  
 
 Você pode visualizar com o plugin do vscode sqlite view
 
-Use o postman para fazer os testes iniciais. UrlBase: http://localhost:3030 
+Use o postman para fazer os testes iniciais. UrlBase: http://localhost:3000 
 
 ### Bom Jornada ;) 
 Fábio & José Ernesto
 
 Qualidade de software
-
 Apoio: Leonardo Souza e Aline Keiko
 
 
